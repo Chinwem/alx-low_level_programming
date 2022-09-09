@@ -1,8 +1,10 @@
 #include<stdio.h>
+#include<unistd.h>
 /**
- * main-program entry point
+ * main - entry point
  *
- * Return: 1 on success
+ * Description: prints and that piece
+ * Return: 1 if successful
  */
 int main(void)
 {
