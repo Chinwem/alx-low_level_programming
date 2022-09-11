@@ -1,6 +1,5 @@
 #include <stdio.h>
-
-i/**
+/**
  * main - print if the number is postive, zero, or negative
  *
  * Description: using the main function
@@ -18,6 +17,6 @@ for (ch = 'A' ; ch <= 'Z' ; ch++)
 {
 	putchar(ch);
 }
-putchar('\n);
+putchar('\n');
 return (0);
 }
