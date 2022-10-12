@@ -1,7 +1,7 @@
 #include "3-calc.h"
 
 /**
- * main - program that performs simple opertions
+ * main - program that performs simple operations
  * @argc: number of arguments
  * @argv: array of arguments
  *
@@ -32,7 +32,7 @@ int main(int argc, char *argv[])
 
 	o = *argv[2];
 
-	if ((o == '/' || o == '% ') && arg2 == 0)
+	if ((o == '/' || o == '%') && arg2 == 0)
 	{
 		printf("Error\n");
 		exit(100);
