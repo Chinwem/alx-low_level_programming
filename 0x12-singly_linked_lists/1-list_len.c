@@ -1,4 +1,4 @@
-#include "list.h"
+#include "lists.h"
 
 /**
  * list_len - returns then number of elements in a list
@@ -16,7 +16,7 @@ size_t list_len(const list_t *h)
 
 	{
 
-		h = h->.next;
+		h = h->next;
 
 		number_of_nodes++;
 
